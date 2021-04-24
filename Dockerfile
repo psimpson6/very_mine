@@ -5,7 +5,7 @@ FROM adoptopenjdk/openjdk11:debian
 # Environment variables
 ENV MC_VERSION="latest" \
     PAPER_BUILD="latest" \
-    MC_RAM="240M" \
+    MC_RAM="500M" \
     JAVA_OPTS=""
 
 ADD papermc.sh .
