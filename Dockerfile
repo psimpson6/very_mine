@@ -1,6 +1,6 @@
 
 # JRE base
-FROM adoptopenjdk/openjdk11:debian-slim
+FROM adoptopenjdk/openjdk11:debian
 
 # Environment variables
 ENV MC_VERSION="latest" \
