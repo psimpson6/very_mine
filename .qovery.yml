@@ -3,6 +3,13 @@ application:
   name: "very-mine"
   project: "Very Paper Master"
   organization: "QoveryCommunity"
+  storage:
+  - name: "static"
+    size: "10GB"
+    type: "fast_ssd"
+    mount_point: "/mnt/static"
+
+  # port: 8080
 routers:
 - name: "main-very-mine"
   routes:
