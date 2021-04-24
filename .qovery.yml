@@ -1,0 +1,11 @@
+---
+application:
+  name: "very-mine"
+  project: "Very Paper Master"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-very-mine"
+  routes:
+  - application_name: "very-mine"
+    paths:
+    - "/*"
