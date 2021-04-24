@@ -30,5 +30,7 @@ if [ ! -e ${JAR_NAME} ]
     fi
 fi
 
+echo RAM: ${MC_RAM}
+echo jar: ${JAR_NAME}
 # Start server
 exec java -server -Xms${MC_RAM} -Xmx${MC_RAM} ${JAVA_OPTS} -jar ${JAR_NAME} nogui
