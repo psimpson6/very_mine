@@ -9,7 +9,7 @@ ENV MC_VERSION="latest" \
     JAVA_OPTS=""
 
 ADD papermc.sh .
-RUN apt-transport-https
+RUN apt-get install -y apt-transport-https
 RUN apt-get update \
     && apt-get install -y wget \
     && apt-get install -y jq \
